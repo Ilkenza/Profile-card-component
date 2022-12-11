@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(185deg, 75%, 39%);
+  height: 950px;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: left -84px top -483px, right -191px bottom -541px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 900px 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body main .card {
+  width: 350px;
+  height: 380px;
+  border-radius: 15px;
+  background: #ffffff;
+}
+body main .card .card-head img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+body main .card .card-img {
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+}
+body main .card .card-img .user-img {
+  border-radius: 50%;
+  padding: 5px;
+  background: #ffffff;
+}
+body main .card .card-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .card .card-txt .pcc-txt {
+  display: flex;
+  align-items: center;
+}
+body main .card .card-txt .pcc-txt h1 {
+  font-size: 18px;
+  margin-right: 10px;
+}
+body main .card .card-txt .pcc-txt .pc-p {
+  font-size: 18px;
+  color: hsl(227deg, 10%, 46%);
+}
+body main .card .card-txt .pc-l {
+  margin: 0px;
+  color: hsl(227deg, 10%, 46%);
+}
+body main .card hr {
+  background: hsl(227deg, 10%, 46%);
+  margin: 20px 0px;
+  opacity: 0.5;
+}
+body main .card .pcc-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+body main .card .pcc-text h2 {
+  margin: 0;
+  font-size: 18px;
+}
+body main .card .pcc-text p {
+  margin: 0;
+  font-size: 13px;
+  color: hsl(0deg, 0%, 59%);
+}
+body .attribution {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+}
+body .attribution .attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */

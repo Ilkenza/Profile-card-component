@@ -1,0 +1,91 @@
+$Dark-cyan: hsl(185, 75%, 39%);
+$Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$Dark-grayish-blue: hsl(227, 10%, 46%);
+$Dark-gray: hsl(0, 0%, 59%);
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $Dark-cyan;
+    height: 950px;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: left -84px top -483px, right -191px bottom -541px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 900px 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+    main{
+        .card{
+            width: 350px;
+            height: 380px;
+            border-radius: 15px;
+            background: #ffffff;
+            .card-head{
+                img{
+                    border-top-right-radius: 15px;
+                    border-top-left-radius: 15px;
+                }
+            }
+            .card-img{
+                margin-top: -50px;
+                display: flex;
+                justify-content: center;
+                .user-img{
+                    border-radius: 50%;
+                    padding: 5px;
+                    background: #ffffff;
+                }
+            }
+            .card-txt{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .pcc-txt{
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        font-size: 18px;
+                        margin-right: 10px
+                    }
+                    .pc-p{
+                        font-size: 18px;
+                        color: $Dark-grayish-blue;
+                    }
+                }
+                .pc-l{
+                    margin:0px;
+                    color: $Dark-grayish-blue;
+                }
+            }
+            hr{
+                background: $Dark-grayish-blue;
+                margin: 20px 0px;
+                opacity: 0.5;
+            }
+            .pcc-text{
+                display: flex;
+                justify-content: space-evenly;
+                h2{
+                    margin: 0;
+                    font-size: 18px;
+                }
+                p{
+                    margin: 0;
+                    font-size: 13px;
+                    color: $Dark-gray;
+                }
+            }
+        }
+    }
+    .attribution { 
+        font-size: 13px; 
+        text-align: center; 
+        margin-top: 20px;
+        .attribution a {
+          color: hsl(228, 45%, 44%); 
+        }
+    }
+}
